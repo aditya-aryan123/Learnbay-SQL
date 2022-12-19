@@ -1,0 +1,28 @@
+ASSIGNMENT – 3
+
+CREATE TWO TABLES EMP & EMP_SAL AS PER THE BELOW STRUCTURE:
+
+EMP
+
+Field EID Constraints
+EMPID Primary Key
+NAME NOT NULL
+ADDR No employee from UTTAM NAGAR
+CITY DEL, GGN, FBD, NOIDA
+PHNO UNIQUE
+EMAIL
+
+Should be on Gmail / Yahoo
+
+Domain
+DOB <= '1-Jan-2000'
+
+EMP_SAL
+
+Field EID Constraints
+EMPID Foreign Key
+DEPT HR, MIS, OPS , IT ADMIN, TEMP
+DESI ASSO, MGR, VP, DIR
+BASIC >=20000
+DOJ -
+By default DEPT should be TEMP
